@@ -1,35 +1,39 @@
-h2
+body
 {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1
+{
+    font-size: 300%;
     text-align: center;
     font-family: 'Franklin Gothic Medium';
     text-decoration: underline;
-    text-decoration: powderblue;
+    -webkit-text-stroke: 1px black;
+    color:cornflowerblue;
+
 }
 
-body
+#whole, #para, #gif_headpat
 {
+    font-size: 120%;
     text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
     text-decoration: solid;
     border-style: solid;
-    border: 10px 10px 10px 30px;
+    border: 10px 10px 10px 10px;
     border-radius: 10px;
     border-color: burlywood;
 
-    -webkit-text-stroke: 0.5px black;
-    color: white;
+    max-width: 700px;
+    max-height: 600px;
+    background-color: lightgray;
+    margin: 0 auto;
+    padding: 30px;
     
 }
 
-div
-{
-    text-align:center;
-    color:powderblue;
-    font-size: 200%;
-    font-family: 'Franklin Gothic Medium';
-}
+
 
 form
 {
@@ -38,4 +42,3 @@ form
     font-size: 150%;
     font-family: 'Franklin Gothic Medium';
 }
-
